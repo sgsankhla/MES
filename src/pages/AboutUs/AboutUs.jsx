@@ -30,10 +30,6 @@ export const AboutUs = () => {
           </div>
 
           <div className="about-right-col">
-            <div className="small">
-              <small>Digixion members</small><br />
-              <small>2023</small>
-            </div>
               <img src="../meeting2.jpg" alt=""></img>
           </div>
         </div>

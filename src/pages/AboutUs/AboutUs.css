@@ -35,7 +35,7 @@
 }
 
 .about-left-col {
-  flex-basis: 50%;
+  flex-basis: 40%;
 }
 
 .about-left-col h1 {
@@ -50,14 +50,15 @@
 }
 
 .about-right-col {
-  flex-basis: 50%;
+  flex-basis: 60%;
 }
 
 .about-right-col img {
   height: 600px;
   width: 800px;
   border-radius: 15px;
-  margin-left: 70%;
+  margin-left: 10%;
+  margin-bottom: 2rem;
 }
 
 /* Text Section-1  => about sec 3 */

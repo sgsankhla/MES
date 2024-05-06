@@ -87,6 +87,25 @@ li {
   margin-bottom: 2rem;
 }
 
+.busness-benefit img{
+   height: 25rem;
+  width: 42rem;
+  margin: .5rem;
+  margin-left: 16%;
+}
+.busness-benefit-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.busness-benefit-left-col {
+  flex-basis: 40%;
+}
+.busness-benefit-right-col {
+  flex-basis: 60%;
+}
+
+
+
 /* Digital Solution */
 .digital-solution .page1-row .page1-right-col ul li {
   margin-top: .5rem;
@@ -115,7 +134,7 @@ li {
   flex-basis: 60%;
 }
 .key-feature .page1-row .page1-left-col ul li {
-  margin-left: 20rem;
+  margin-left: 4rem;
   color: rgb(43, 42, 42);
   font-size: 1.8rem;
   font-weight: 400;
@@ -123,7 +142,7 @@ li {
 
 .key-feature .page1-right-col img {
   top: 0%;
-  margin-left: 120rem;
+  margin-left: 15rem;
 }
 
 .footer-page1 {
