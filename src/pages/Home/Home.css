@@ -1,0 +1,398 @@
+.home
+{
+  background-color: rgb(34, 33, 33);
+  width: 100%;
+}
+
+#home
+{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.home-row
+{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*........ Common css........*/
+.section-light
+{
+  background-color: #fffefe;
+  color: rgb(46, 46, 46);
+}
+
+.section-dark
+{
+  background-color: rgb(239, 238, 238);
+  color: #252525;
+}
+
+.home-left-col .home-btn
+{
+  margin-top: 30px;
+  padding: 18px 30px 18px 30px;
+  margin-left: 45px;
+  font-family: "Rubik Maze", system-ui;
+  font-weight: 400;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #252525;
+  border-radius: 40px;
+  transition: background-color 0.5s;
+}
+
+.home-left-col .home-btn:hover
+{
+  background-color: transparent;
+  color: #fff;
+}
+
+.home-left-col
+{
+  padding: 70px;
+  flex-basis: 50%;
+  height: 150vh;
+  background-color: #232222;
+  justify-content: center;
+}
+
+.home-left-col p
+{
+  color: #fff;
+  margin: 30px;
+}
+
+.home-left-col h1
+{
+  padding-top: 30%;
+  padding-left: 8%;
+  left: 30px;
+  color: #fff;
+  font-weight: 300;
+  width: 100%;
+  font-size: 4rem;
+  font-family: "Rubik Maze", system-ui;
+}
+
+.home-left-col p
+{
+  font-family: "Rubik Maze", system-ui;
+  margin-top: 30px;
+  padding-top: 20px;
+  color: #ecebeb;
+  padding-left: 4%;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-size: .9rem;
+}
+
+/*........ Right-Col css........*/
+
+.home-right-col
+{
+  flex-basis: 50%;
+  text-align: right;
+  background-color: #777;
+}
+
+.home-text img
+{
+  height: 150vh;
+  width: 100%;
+}
+
+.options button
+{
+  background-color: #fff;
+  border: 1px solid #f67c92;
+  color: #4a4949;
+}
+
+/*.........Section-2........ */
+.section-two
+{
+  padding: 50px;
+}
+
+.section-two h1
+{
+  font-size: 2.5rem;
+  margin-top: 70px;
+  font-family: "Rubik Maze", system-ui;
+  font-weight: 350;
+}
+
+.section-two p
+{
+  margin-top: 40px;
+  font-family: "Rubik Maze", system-ui;
+  color: #1f1f1f;
+  font-weight: 350;
+}
+
+/*............. Section-3 CSS.......... */
+
+.sec-three-row
+{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section-three
+{
+  height: auto;
+  margin-bottom: 300px;
+}
+
+.sec-three-left-col
+{
+  flex-basis: 60%;
+  text-align: left;
+}
+
+.sec-three-left-col h1
+{
+  padding: 7px;
+  margin-left: 90px;
+  font-size: 1.8rem;
+  margin-top: 11px;
+  font-family: "Rubik Maze", system-ui;
+  letter-spacing: 1px;
+  font-weight: 350;
+}
+
+.sec-three-right-col
+{
+  flex-basis: 40%;
+  text-align: right;
+}
+
+.sec-three-right-col img
+{
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+/* ............Section-Four CSS........... */
+
+.sec-four-row
+{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #ebeaea;
+}
+
+.sec-four-left-col
+{
+  flex-basis: 40%;
+}
+
+.sec-four-right-col
+{
+  flex-basis: 60%;
+  text-align: left;
+  padding: 30px;
+}
+
+.sec-four-right-col h1
+{
+  padding: 7px;
+  font-size: 1.8rem;
+  margin-top: 11px;
+  font-family: "Rubik Maze", system-ui;
+  letter-spacing: 1px;
+  font-weight: 350;
+}
+
+.sec-four-left-col img
+{
+  width: 400px;
+  height: 650px;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+
+.trans-bttn
+{
+  background-color: transparent;
+  font-weight: 350;
+  font-family: "Rubik Maze", system-ui;
+  font-size: medium;
+}
+
+.trans-bttn span
+{
+  margin: 1px;
+  content: "\2192";
+}
+
+.sec-four-right-col h1
+{
+  padding: 7px;
+  font-size: 2.8rem;
+  margin-top: 1px;
+  font-family: "Rubik Maze", system-ui;
+  font-weight: 350;
+  margin-bottom: 50px;
+  color: #1d1d1d;
+}
+
+.sec-four-right-col p
+{
+  padding: 7px;
+  font-size: 1rem;
+  margin-top: 5px;
+  font-family: "Rubik Maze", system-ui;
+  font-weight: 350;
+  margin-bottom: 70px;
+  color: #1d1d1d;
+}
+
+/* Section-five Css */
+
+.sec-five h1
+{
+  padding: 7px;
+  font-size: 2.8rem;
+  margin-top: 90px;
+  font-family: "Rubik Maze", system-ui;
+  font-weight: 350;
+  margin-bottom: 50px;
+  margin-left: 3%;
+}
+
+.sec-five p
+{
+  padding: 8px;
+  font-size: 1rem;
+  margin-top: 5px;
+  font-family: "Rubik Maze", system-ui;
+  font-weight: 350;
+  margin-right: 40%;
+  margin-left: 3%;
+}
+
+.contact
+{
+  background-color: transparent;
+  font-weight: 350;
+  font-family: "Rubik Maze", system-ui;
+  font-size: medium;
+  margin-left: 2%;
+  margin-bottom: 80px;
+  margin-top: 2%;
+}
+
+.contact span
+{
+  margin: 9px;
+}
+
+
+/* Section-six */
+.footer
+{
+  padding: 20px 40px 20px;
+  background-color: #1d1d1d;
+}
+
+hr
+{
+  width: 100%;
+  border: o;
+  border-top: 1px solid;
+}
+
+.footer-row
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+
+.footer-left-col
+{
+  flex-basis: 60%;
+  margin-left: 30px;
+}
+
+.footer-right-col
+{
+  flex-basis: 30%;
+}
+
+.footer-links
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.link-title h4
+{
+  color: #dddcdc;
+  margin-bottom: 15px;
+}
+
+.link-title a
+{
+  color: #d3d3d3;
+  margin-top: 10px;
+
+}
+
+.footer .copyright-text
+{
+  color: #c8c7c7;
+  font-size: small;
+  font: 200;
+
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.footer-right-col p
+{
+  text-align: right;
+  margin-bottom: 1px;
+  margin-right: 5px;
+}
+
+.MuiBox-root css-1b0ve20
+{
+  position: fixed;
+  margin-left: 90%;
+
+}
+
+/* faltu */
+.faltu video{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  transition: .5s;
+}
+
+.video-bg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  object-fit: cover;
+}

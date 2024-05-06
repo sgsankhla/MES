@@ -1,0 +1,148 @@
+.contact-sec-1 {
+  min-height: 50vh;
+  width: 100%;
+  background-color: #ecebeb;
+}
+.contact-sec-1 h1 {
+  padding-top: 20%;
+  padding-left: 8%;
+  left: 30px;
+  color: #393939;
+  font-weight: 400;
+  width: 100%;
+  font-size: 3.7rem;
+  font-family: "Rubik Maze", system-ui;
+}
+.contact-sec-1 p {
+  font-family: "Rubik Maze", system-ui;
+  margin-top: 15px;
+  padding-top: 10px;
+  color: #434343;
+  padding-left: 4%;
+  font-weight: 380;
+  letter-spacing: 1px;
+  margin-left: 59px;
+  padding: 50px;
+}
+
+/*.................. Contact Form CSS...............*/
+
+.contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.contact-left-col {
+  flex-basis: 30%;
+  padding-bottom: 10%;
+}
+
+.contact-left-col h1 {
+  padding-top: 20%;
+  padding-left: 12%;
+  left: 30px;
+  color: #484848;
+  font-weight: 350;
+  font-size: 2.5rem;
+  font-family: "Rubik Maze", system-ui;
+  margin-bottom: 5%;
+}
+.contact-left-col h5 {
+  padding-left: 12%;
+  left: 30px;
+  color: #484848;
+  font-weight: 250;
+  font-size: 1rem;
+  font-family: "Rubik Maze", system-ui;
+  margin-bottom: 4%;
+}
+
+.contact-right-col {
+  flex-basis: 70%;
+}
+
+.contact-right-col h1 {
+  padding-top: 8%;
+  padding-left: 1%;
+  left: 30px;
+  color: #484848;
+  font-weight: 350;
+  font-size: 2.5rem;
+  font-family: "Rubik Maze", system-ui;
+  margin-bottom: 2%;
+}
+
+/* form .inputs {
+  margin-left: 70px;
+} 
+
+form input {
+  height: 20px;
+  width: 330px;
+  padding: 20px;
+  border: 0.5px solid rgb(233, 233, 233);
+  margin: 10px;
+  color:  rgb(227, 227, 227);
+}
+
+form ::placeholder{
+  color: rgb(203, 203, 203);
+  font-size: 1rem;
+  font-weight: 100;
+  font-family: "Rubik Maze", system-ui;
+} */
+
+textarea{
+    border:  0.5px solid rgb(233, 233, 233);
+    margin-left: 10px;
+    padding: 11px;
+    padding-right: 7.8px;
+    font-family: "Rubik Maze", system-ui;
+    font-size: 1rem;
+    color:rgb(56, 56, 56) ;
+}
+
+textarea::placeholder{
+  color: rgb(203, 203, 203);
+  font-family: "Rubik Maze", system-ui;
+}
+
+.send-btn {
+  margin: 20px 30px;
+  padding: 20px 40px;
+  background-color: #1e1d1d;
+  color: #ecebeb;
+  margin-left: 8%;
+  font-size: 1rem;
+  font-weight: 100;
+  transition: background-color 0.6s ;
+}
+.send-btn:hover{
+  color: #1e1d1d;
+  background-color: #ecebeb;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.checkbox input{
+  margin-left : 1.8%;
+  margin-right: 40px;
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.checkbox label{
+  font-family: "Rubik Maze", system-ui;
+  font-size: 1rem;
+  font-weight: 150;
+  letter-spacing: 1px;
+}
+
+/* Map CSS */
+#map{
+  margin-top: 50%;
+  margin: 20px;
+  border-radius: 10px;
+}
+

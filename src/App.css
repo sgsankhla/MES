@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth
+}
+
+body{
+  color: #4a4949;
+  font-family: "Rubik Maze", system-ui;
+
+}
+
+button{
+  padding: 15px 30px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  color:rgb(30, 29, 29);
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 40px;
+}
+ a:hover{
+  text-decoration: none;
+ }
+
+/* Header css */
+
+.container{
+  width: 100%;
+  padding: 4px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 20px;
+  font-family: "Rubik Maze", system-ui;
+}
+
+.container .dark{
+  width: 100%;
+  padding: 4px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: "Rubik Maze", system-ui;
+}
+
+.container nav{
+  padding: 1px;
+  margin: 2px;
+  margin-top: 40px;
+  margin-right: 50px;   
+  letter-spacing: 1px;
+  color: black;
+  font-weight: 350;
+}
+
+ul{
+  display: flex;
+  gap: 3.2rem;
+  list-style: none; 
+}
+
+.navlinks ul li{
+  cursor: pointer;
+  text-decoration: none;
+  gap: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.navlinks ul li:hover{
+color: rgb(43, 43, 43);
+border-bottom: 1px solid rgb(43, 43, 43);
+padding: 3px;
+
+}
+
+.container .logo{
+  margin-top: 40px;
+  margin-left: 70px;
+  letter-spacing: 1px;
+  font-family: "Rubik Maze", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
+}
+
+span{
+  font-weight: 200;
+  font-size:small;
+  margin-left: 100px;
+  color: black;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: black;
+}
+
+
